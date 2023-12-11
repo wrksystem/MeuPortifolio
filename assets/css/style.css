@@ -568,26 +568,27 @@ header .grid-layout nav .nav-list li a:hover {
   color: var(--gray);
   font-weight: 400;
 }
-#s-projects {
+/*Web Section Start*/
+#s-projectsWeb {
   padding: 96px 48px;
   text-align: center;
   background-color: var(--dark);
 }
 @media screen and (max-width: 992px) {
-  #s-projects {
+  #s-projectsWeb {
     padding: 48px 24px;
   }
 }
-#s-projects .grid-layout h2 {
+#s-projectsWeb .grid-layout h2 {
   padding-bottom: 24px;
   color: var(--white);
   font-size: 4rem;
   font-weight: 500;
 }
-#s-projects .grid-layout h2 span {
+#s-projectsWeb .grid-layout h2 span {
   color: var(--main);
 }
-#s-projects .grid-layout #projects {
+#s-projectsWeb .grid-layout #projects {
   margin: 24px 0px;
   display: flex;
   justify-content: space-between;
@@ -595,25 +596,25 @@ header .grid-layout nav .nav-list li a:hover {
   flex-wrap: wrap;
   text-align: left;
 }
-#s-projects .grid-layout #projects .healthio {
+#s-projectsWeb .grid-layout #projects .healthio {
   border: 1px solid var(--red);
 }
-#s-projects .grid-layout #projects .healthio:hover {
+#s-projectsWeb .grid-layout #projects .healthio:hover {
   border: 1px solid var(--red);
 }
-#s-projects .grid-layout #projects .stopwatch {
+#s-projectsWeb .grid-layout #projects .stopwatch {
   border: 1px solid var(--blue);
 }
-#s-projects .grid-layout #projects .stopwatch:hover {
+#s-projectsWeb .grid-layout #projects .stopwatch:hover {
   border: 1px solid var(--blue);
 }
-#s-projects .grid-layout #projects .bhaskara {
+#s-projectsWeb .grid-layout #projects .bhaskara {
   border: 1px solid var(--green);
 }
-#s-projects .grid-layout #projects .bhaskara:hover {
+#s-projectsWeb .grid-layout #projects .bhaskara:hover {
   border: 1px solid var(--green);
 }
-#s-projects .grid-layout #projects > article {
+#s-projectsWeb .grid-layout #projects > article {
   background-color: var(--dark-200);
   height: auto;
   padding: 24px;
@@ -624,28 +625,28 @@ header .grid-layout nav .nav-list li a:hover {
   transition: 1s all ease;
   height: auto;
 }
-#s-projects .grid-layout #projects > article:hover {
+#s-projectsWeb .grid-layout #projects > article:hover {
   border: 1px solid var(--main);
 }
 @media screen and (max-width: 1200px) {
-  #s-projects .grid-layout #projects > article {
+  #s-projectsWeb .grid-layout #projects > article {
     flex-basis: calc(50% - 20px);
   }
 }
 @media screen and (max-width: 768px) {
-  #s-projects .grid-layout #projects > article {
+  #s-projectsWeb .grid-layout #projects > article {
     flex-basis: calc(100% - 20px);
   }
 }
 
-#s-projects .grid-layout #projects > article h3 {
+#s-projectsWeb .grid-layout #projects > article h3 {
   color: var(--white);
   font-size: 2.4rem;
   font-weight: 500;
   padding-bottom: 16px;
 }
 
-#s-projects .grid-layout #projects > article .projects-cover {
+#s-projectsWeb .grid-layout #projects > article .projects-cover {
   background-color: var(--dark-400);
   height: 175px;
   width: 100%;
@@ -654,38 +655,38 @@ header .grid-layout nav .nav-list li a:hover {
   border-radius: 3px;
 }
 
-#s-projects .grid-layout #projects > article p {
+#s-projectsWeb .grid-layout #projects > article p {
   line-height: 24px;
   margin: 24px 0px;
   color: var(--gray);
   line-height: 3.2rem;
   font-size: 1.8rem;
 }
-#s-projects .grid-layout #healthio {
+#s-projectsWeb .grid-layout #healthio {
   color: var(--red);
 }
-#s-projects .grid-layout #healthio::after {
+#s-projectsWeb .grid-layout #healthio::after {
   background: linear-gradient(270deg, var(--red) 0%, #17161d 100%);
 }
-#s-projects .grid-layout #stopwatch {
+#s-projectsWeb .grid-layout #stopwatch {
   color: var(--blue);
 }
-#s-projects .grid-layout #stopwatch::after {
+#s-projectsWeb .grid-layout #stopwatch::after {
   background: linear-gradient(270deg, var(--blue) 0%, #17161d 100%);
 }
-#s-projects .grid-layout #bhaskara {
+#s-projectsWeb .grid-layout #bhaskara {
   color: var(--green);
 }
-#s-projects .grid-layout #bhaskara::after {
+#s-projectsWeb .grid-layout #bhaskara::after {
   background: linear-gradient(270deg, var(--green) 0%, #17161d 100%);
 }
-#s-projects .grid-layout a {
+#s-projectsWeb .grid-layout a {
   color: var(--main);
   position: relative;
   font-size: 2rem;
   font-weight: 400;
 }
-#s-projects .grid-layout a::after {
+#s-projectsWeb .grid-layout a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -697,11 +698,11 @@ header .grid-layout nav .nav-list li a:hover {
   transform-origin: bottom right;
   transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
 }
-#s-projects .grid-layout a:hover::after {
+#s-projectsWeb .grid-layout a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-#s-projects .grid-layout a::after {
+#s-projectsWeb .grid-layout a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -712,10 +713,315 @@ header .grid-layout nav .nav-list li a:hover {
   transform-origin: bottom right;
   transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
 }
-#s-projects .grid-layout a:hover::after {
+#s-projectsWeb .grid-layout a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+/*Web Section End*/
+
+
+/*Mobile Section Start*/
+#s-projectsMobile {
+  padding: 96px 48px;
+  text-align: center;
+  background-color: var(--dark);
+}
+@media screen and (max-width: 992px) {
+  #s-projectsMobile {
+    padding: 48px 24px;
+  }
+}
+#s-projectsMobile .grid-layout h2 {
+  padding-bottom: 24px;
+  color: var(--white);
+  font-size: 4rem;
+  font-weight: 500;
+}
+#s-projectsMobile .grid-layout h2 span {
+  color: var(--main);
+}
+#s-projectsMobile .grid-layout #projects {
+  margin: 24px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+#s-projectsMobile .grid-layout #projects .healthio {
+  border: 1px solid var(--red);
+}
+#s-projectsMobile .grid-layout #projects .healthio:hover {
+  border: 1px solid var(--red);
+}
+#s-projectsMobile .grid-layout #projects .stopwatch {
+  border: 1px solid var(--blue);
+}
+#s-projectsMobile .grid-layout #projects .stopwatch:hover {
+  border: 1px solid var(--blue);
+}
+#s-projectsMobile .grid-layout #projects .bhaskara {
+  border: 1px solid var(--green);
+}
+#s-projectsMobile .grid-layout #projects .bhaskara:hover {
+  border: 1px solid var(--green);
+}
+#s-projectsMobile .grid-layout #projects > article {
+  background-color: var(--dark-200);
+  height: auto;
+  padding: 24px;
+  margin: 8px;
+  flex-basis: calc(33% - 20px);
+  flex-grow: 1;
+  border: 1px solid var(--dark);
+  transition: 1s all ease;
+  height: auto;
+}
+#s-projectsMobile .grid-layout #projects > article:hover {
+  border: 1px solid var(--main);
+}
+@media screen and (max-width: 1200px) {
+  #s-projectsMobile .grid-layout #projects > article {
+    flex-basis: calc(50% - 20px);
+  }
+}
+@media screen and (max-width: 768px) {
+  #s-projectsMobile .grid-layout #projects > article {
+    flex-basis: calc(100% - 20px);
+  }
+}
+
+#s-projectsMobile .grid-layout #projects > article h3 {
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+#s-projectsMobile .grid-layout #projects > article .projects-cover {
+  background-color: var(--dark-400);
+  height: 175px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
+#s-projectsMobile .grid-layout #projects > article p {
+  line-height: 24px;
+  margin: 24px 0px;
+  color: var(--gray);
+  line-height: 3.2rem;
+  font-size: 1.8rem;
+}
+#s-projectsMobile .grid-layout #healthio {
+  color: var(--red);
+}
+#s-projectsMobile .grid-layout #healthio::after {
+  background: linear-gradient(270deg, var(--red) 0%, #17161d 100%);
+}
+#s-projectsMobile .grid-layout #stopwatch {
+  color: var(--blue);
+}
+#s-projectsMobile .grid-layout #stopwatch::after {
+  background: linear-gradient(270deg, var(--blue) 0%, #17161d 100%);
+}
+#s-projectsMobile .grid-layout #bhaskara {
+  color: var(--green);
+}
+#s-projectsMobile .grid-layout #bhaskara::after {
+  background: linear-gradient(270deg, var(--green) 0%, #17161d 100%);
+}
+#s-projectsMobile .grid-layout a {
+  color: var(--main);
+  position: relative;
+  font-size: 2rem;
+  font-weight: 400;
+}
+#s-projectsMobile .grid-layout a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -7px;
+  left: 0;
+  background: linear-gradient(270deg, var(--main) 0%, #17161d 100%);
+  transform-origin: bottom right;
+  transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+#s-projectsMobile .grid-layout a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#s-projectsMobile .grid-layout a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -7px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+#s-projectsMobile .grid-layout a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/*Mobile Section End*/
+
+/*Faculdade Section Start*/
+#s-projectsFaculdade {
+  padding: 96px 48px;
+  text-align: center;
+  background-color: var(--dark);
+}
+@media screen and (max-width: 992px) {
+  #s-projectsFaculdade {
+    padding: 48px 24px;
+  }
+}
+#s-projectsFaculdade .grid-layout h2 {
+  padding-bottom: 24px;
+  color: var(--white);
+  font-size: 4rem;
+  font-weight: 500;
+}
+#s-projectsFaculdade .grid-layout h2 span {
+  color: var(--main);
+}
+#s-projectsFaculdade .grid-layout #projects {
+  margin: 24px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+#s-projectsFaculdade .grid-layout #projects .healthio {
+  border: 1px solid var(--red);
+}
+#s-projectsFaculdade .grid-layout #projects .healthio:hover {
+  border: 1px solid var(--red);
+}
+#s-projectsFaculdade .grid-layout #projects .stopwatch {
+  border: 1px solid var(--blue);
+}
+#s-projectsFaculdade .grid-layout #projects .stopwatch:hover {
+  border: 1px solid var(--blue);
+}
+#s-projectsFaculdade .grid-layout #projects .bhaskara {
+  border: 1px solid var(--green);
+}
+#s-projectsFaculdade .grid-layout #projects .bhaskara:hover {
+  border: 1px solid var(--green);
+}
+#s-projectsFaculdade .grid-layout #projects > article {
+  background-color: var(--dark-200);
+  height: auto;
+  padding: 24px;
+  margin: 8px;
+  flex-basis: calc(33% - 20px);
+  flex-grow: 1;
+  border: 1px solid var(--dark);
+  transition: 1s all ease;
+  height: auto;
+}
+#s-projectsFaculdade .grid-layout #projects > article:hover {
+  border: 1px solid var(--main);
+}
+@media screen and (max-width: 1200px) {
+  #s-projectsFaculdade .grid-layout #projects > article {
+    flex-basis: calc(50% - 20px);
+  }
+}
+@media screen and (max-width: 768px) {
+  #s-projectsFaculdade .grid-layout #projects > article {
+    flex-basis: calc(100% - 20px);
+  }
+}
+
+#s-projectsFaculdade .grid-layout #projects > article h3 {
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+#s-projectsFaculdade .grid-layout #projects > article .projects-cover {
+  background-color: var(--dark-400);
+  height: 175px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
+#s-projectsFaculdade .grid-layout #projects > article p {
+  line-height: 24px;
+  margin: 24px 0px;
+  color: var(--gray);
+  line-height: 3.2rem;
+  font-size: 1.8rem;
+}
+#s-projectsFaculdade .grid-layout #healthio {
+  color: var(--red);
+}
+#s-projectsFaculdade .grid-layout #healthio::after {
+  background: linear-gradient(270deg, var(--red) 0%, #17161d 100%);
+}
+#s-projectsFaculdade .grid-layout #stopwatch {
+  color: var(--blue);
+}
+#s-projectsFaculdade .grid-layout #stopwatch::after {
+  background: linear-gradient(270deg, var(--blue) 0%, #17161d 100%);
+}
+#s-projectsFaculdade .grid-layout #bhaskara {
+  color: var(--green);
+}
+#s-projectsFaculdade .grid-layout #bhaskara::after {
+  background: linear-gradient(270deg, var(--green) 0%, #17161d 100%);
+}
+#s-projectsFaculdade .grid-layout a {
+  color: var(--main);
+  position: relative;
+  font-size: 2rem;
+  font-weight: 400;
+}
+#s-projectsFaculdade .grid-layout a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -7px;
+  left: 0;
+  background: linear-gradient(270deg, var(--main) 0%, #17161d 100%);
+  transform-origin: bottom right;
+  transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+#s-projectsFaculdade .grid-layout a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#s-projectsFaculdade .grid-layout a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -7px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+#s-projectsFaculdade .grid-layout a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/*Faculdade Section End*/
 
 #s-skills {
   padding: 96px 48px;
